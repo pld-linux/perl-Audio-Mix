@@ -21,7 +21,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # optional
-%define		_noautoreq	perl(Audio::CoolEdit)
+%define		_noautoreq	'perl(Audio::CoolEdit)'
 
 %description
 The purpose of this module is to provide a way to apply fades to
