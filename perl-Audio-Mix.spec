@@ -12,6 +12,7 @@ Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	795c50919e094e3472d53993aa39fe50
 Patch0:		%{name}-cue.patch
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Audio-Tools
