@@ -1,0 +1,11 @@
+--- Audio-Mix-0.01/Mix/Analyse.pm.orig	Mon Jan  4 15:41:44 1999
++++ Audio-Mix-0.01/Mix/Analyse.pm	Thu Aug 15 18:12:59 2002
+@@ -107,7 +107,7 @@
+ 		my $data = $cues -> {$id};
+ 		next unless exists( $data -> {'label'} );
+ 		my $label = $data -> {'label'};
+-		my @output = ( $data -> {'position'} * $block_align );
++		my @output = ( $data -> {'position'} );
+ 		push( @output, $data -> {'note'} ) if exists( $data -> {'note'} );
+ 		push @{ $output -> {$label} }, [ @output ];
+ 	}
