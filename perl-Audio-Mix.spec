@@ -8,7 +8,7 @@ Summary:	Audio::Mix Perl module - Wav/CoolEdit Fader/Cross-Fader
 Summary(pl):	Modu³ Perla Audio::Mix - dodaj±cy wyciszenia lub przej¶cia do próbek wav
 Name:		perl-Audio-Mix
 Version:	0.01
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -20,8 +20,8 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-# optional
-%define		_noautoreq	'perl(Audio::CoolEdit)'
+# optional, fake
+%define		_noautoreq	'perl(Audio::CoolEdit)' 'perl(join)'
 
 %description
 The purpose of this module is to provide a way to apply fades to
