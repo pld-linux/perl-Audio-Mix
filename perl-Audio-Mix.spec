@@ -6,7 +6,7 @@
 %define	pdir	Audio
 %define	pnam	Mix
 Summary:	Audio::Mix Perl module - Wav/CoolEdit Fader/Cross-Fader
-Summary(pl):	Modu³ Perla Audio::Mix - dodaj±cy wyciszenia lub przej¶cia do próbek wav
+Summary(pl):	Modu³ Perla Audio::Mix - dodaj±cy wyciszenia lub przej¶cia do próbek WAV
 Name:		perl-Audio-Mix
 Version:	0.01
 Release:	4
@@ -27,7 +27,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The purpose of this module is to provide a way to apply fades to
-uncompressed Microsoft .wav files. Not being a c programmer, the fades
+uncompressed Microsoft .WAV files. Not being a c programmer, the fades
 are done completely in Perl, making a minutes fade on a stereo 44.1
 Khz, 16bit file take a considerable amount of time. The primary reason
 I wrote this module was because I needed a programmatic way to mix
@@ -35,7 +35,7 @@ songs together for subsequent burning to a CDR.
 
 %description -l pl
 Celem tego modu³u jest udostêpnienie sposobu na dodawanie wyciszeñ lub
-p³ynnych przej¶æ do nieskompresowanych plików .wav. Efekty te s±
+p³ynnych przej¶æ do nieskompresowanych plików .WAV. Efekty te s±
 wykonywane ca³kowicie w Perlu, wiêc dodawanie wyciszenia do 16-bitowej
 próbki stereo 44.1kHz mo¿e trochê potrwaæ. G³ównym powodem stworzenia
 tego modu³u by³a programowego miksowania utworów w celu nagrywania na
