@@ -13,7 +13,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-cue.patch
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Audio-Tools
 BuildRequires:	perl-Audio-Wav
 BuildRequires:	rpm-perlprov >= 4.1-13
