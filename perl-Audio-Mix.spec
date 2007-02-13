@@ -6,7 +6,7 @@
 %define		pdir	Audio
 %define		pnam	Mix
 Summary:	Audio::Mix Perl module - Wav/CoolEdit Fader/Cross-Fader
-Summary(pl.UTF-8):   Moduł Perla Audio::Mix - dodający wyciszenia lub przejścia do próbek WAV
+Summary(pl.UTF-8):	Moduł Perla Audio::Mix - dodający wyciszenia lub przejścia do próbek WAV
 Name:		perl-Audio-Mix
 Version:	0.01
 Release:	4
