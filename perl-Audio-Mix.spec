@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Audio
 %define		pnam	Mix
+%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::Mix Perl module - Wav/CoolEdit Fader/Cross-Fader
 Summary(pl.UTF-8):	Moduł Perla Audio::Mix - dodający wyciszenia lub przejścia do próbek WAV
 Name:		perl-Audio-Mix
@@ -15,9 +15,10 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	795c50919e094e3472d53993aa39fe50
 Patch0:		%{name}-cue.patch
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Audio-Mix/
 BuildRequires:	perl-Audio-Tools
 BuildRequires:	perl-Audio-Wav
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
